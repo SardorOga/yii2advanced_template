@@ -7,12 +7,14 @@ Separate Frontend and Backend to use different tables (landing page/admin).
 Virtual host config:
 
 <VirtualHost *:80>
+
     ServerName yii2.loc
     DocumentRoot "D:Apache/home/yii2.loc"
     <Directory "/">
         DirectoryIndex  index.php index.html
         AllowOverride All
     </Directory>
+	
 </VirtualHost>
 
 Main website url :  http://yourdomain.com
