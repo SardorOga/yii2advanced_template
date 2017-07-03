@@ -8,7 +8,6 @@ Virtual host config:
 
 <VirtualHost *:80>
     ServerName yii2.loc
-
     DocumentRoot "D:Apache/home/yii2.loc"
     <Directory "/">
         DirectoryIndex  index.php index.html
